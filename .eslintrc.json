@@ -1,24 +1,23 @@
 {
-  "extends": ["next/core-web-vitals", "next", "prettier"],
-  "plugins": ["prettier", "eslint-plugin-no-inline-styles"],
-  "rules": {
-    "prettier/prettier": [
-        "error",
-        {
-            "endOfLine": "auto",
-            "no-inline-styles": false
-        }
-    ],
-    "linebreak-style": "off",
-    "no-inline-styles/no-inline-styles": 2,
-    "arrow-parens": "off",
-    "object-curly-newline": "off",
-    "no-mixed-operators": "off",
-    "function-paren-newline": "off",
-    "no-plusplus": "off",
-    "space-before-function-paren": 0,
-    "newline-before-return": "warn",
-    "no-multiple-empty-lines": "warn"
-}
-
+    "extends": ["next/core-web-vitals", "next", "prettier"],
+    "plugins": ["prettier", "eslint-plugin-no-inline-styles"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto",
+                "no-inline-styles": false
+            }
+        ],
+        "linebreak-style": "off",
+        "no-inline-styles/no-inline-styles": 2,
+        "arrow-parens": "off",
+        "object-curly-newline": "off",
+        "no-mixed-operators": "off",
+        "function-paren-newline": "off",
+        "no-plusplus": "off",
+        "space-before-function-paren": 0,
+        "newline-before-return": "warn",
+        "no-multiple-empty-lines": "warn"
+    }
 }
